@@ -25,7 +25,12 @@ body{
     font-size: 8vmin;
     color:#b0413e ;
     background-color:#ffffc7;
-   
+   cursor: pointer;
+}
+
+.box:hover{
+
+    background-color: #081b31;
 }
 .game{
     height: 60vmin;
@@ -46,6 +51,12 @@ body{
     border: none;
 
 }
+
+#new:hover,#reset:hover{
+    cursor: pointer;
+  background-color: #081b31;
+}
+
 #msg{
     color: #ffffc7;
     font-size: 10vmin;
